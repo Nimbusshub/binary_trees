@@ -43,6 +43,7 @@ size_t binary_tree_leaves(const binary_tree_t *tree); /* Counts the leaves in a 
 size_t binary_tree_nodes(const binary_tree_t *tree); /* Counts the node with at least 1 child in a binary tree */
 int binary_tree_balance(const binary_tree_t *tree); /* Measures the balance factor of a binary tree */
 int binary_tree_is_full(const binary_tree_t *tree); /* Checks if a binary tree is full */
+int binary_tree_is_perfect(const binary_tree_t *tree); /* checks if a binary tree is perfect */
 
 
 #endif /* _BINARY_TREES_H_ */
