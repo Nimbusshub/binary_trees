@@ -40,6 +40,7 @@ size_t binary_tree_height(const binary_tree_t *tree); /* Measures the height of 
 size_t binary_tree_depth(const binary_tree_t *tree); /* Measures the depth of a node binary tree */
 size_t binary_tree_size(const binary_tree_t *tree); /* Measures the size of a binary tree */
 size_t binary_tree_leaves(const binary_tree_t *tree); /* Counts the leaves in a binary tree */
+size_t binary_tree_nodes(const binary_tree_t *tree); /* Counts the node with at least 1 child in a binary tree */
 
 
 #endif /* _BINARY_TREES_H_ */
